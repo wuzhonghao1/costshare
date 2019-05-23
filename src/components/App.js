@@ -1,12 +1,12 @@
-import React from 'react';
-
-function App() {
-  return (
-    <div className="App">
-      欢迎来到费用分摊系统！
-    </div>
-  );
-
+import React, { Component } from 'react'
+import {Button} from 'antd'
+import './app.less'
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Button type="primary">Primary</Button>
+      </div>
+    )
+  }
 }
-
-export default App;
